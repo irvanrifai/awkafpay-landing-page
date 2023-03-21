@@ -2312,6 +2312,10 @@ section {
   margin-top: 3px;
 }
 
+.logo i {
+  color: #13AB92;
+}
+
 .footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
