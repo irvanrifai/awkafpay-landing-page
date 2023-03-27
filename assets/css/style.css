@@ -1537,7 +1537,7 @@ section {
 .clients .clients-slider .swiper-slide img {
   /* min-width:100px; */
   opacity: 0.7;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .clients .clients-slider .swiper-slide img:hover {
