@@ -1535,7 +1535,8 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
+  /* min-width:100px; */
+  opacity: 0.7;
   transition: 0.3s;
 }
 
