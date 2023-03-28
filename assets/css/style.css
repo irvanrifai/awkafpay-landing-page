@@ -1544,7 +1544,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  min-width:50px;
+  min-width:40px;
   opacity: 0.7;
   transition: 0.2s;
 }
@@ -2460,7 +2460,7 @@ section {
 
 /* Start Main */
 .main {
-  background: white url(../img/body-bg.png) repeat right top;
+  background: white url(../img/pattern-bg.png) repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
