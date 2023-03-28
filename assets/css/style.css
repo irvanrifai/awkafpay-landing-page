@@ -204,6 +204,7 @@ section {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /**
 * Desktop Navigation 
 */
@@ -600,6 +601,10 @@ section {
   transform: translateX(5px);
 }
 
+.about .btn-read-more:hover {
+  background:#1AA7EC;
+}
+
 .about .btn-wa {
   line-height: 0;
   padding: 15px 40px;
@@ -625,6 +630,10 @@ section {
 
 .about .btn-wa:hover i {
   transform: translateX(5px);
+}
+
+.about .btn-wa:hover {
+  background:#2AA10F;
 }
 
 /*--------------------------------------------------------------
@@ -1535,7 +1544,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  /* min-width:100px; */
+  min-width:50px;
   opacity: 0.7;
   transition: 0.2s;
 }
@@ -2448,3 +2457,13 @@ section {
     margin: 7.5px auto 30px;
   }
 }
+
+/* Start Main */
+.main {
+  background: white url(../img/body-bg.png) repeat right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+  padding: 60px 0 30px 0;
+}
+/* End Main */
