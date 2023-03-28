@@ -2435,3 +2435,16 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+.img-top {
+  display:flex;
+  /* float:left; */
+}
+
+@media (max-width: 600px) {
+  .img-top {
+    display: block;
+    float: none;
+    margin: 7.5px auto 30px;
+  }
+}
